@@ -1,0 +1,44 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(46, 46, 46);
+} 
+
+.hero{
+    width: 130%;
+    height: 130vh;
+    background-image: url(background\ new\ \(1\).JPG);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero .title {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.hero .title h1 span {
+font-weight: bolder;
+font-size: 65px;
+}
+
+nav .navbar-brand {
+    font-weight: bold;
+}
+
+.hero .title button {
+width: 100px;
+}
+
+footer input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
